@@ -50,23 +50,34 @@
 // double quotient = i1 / d1;
 // Console.WriteLine(quotient);
 
-int a = 545;
-int b = 7;
-int c = 12;
-int d = 9;
-int e = 4;
-int max = a;
-if (b > max){
-    max = b;
+// int a = 545;
+// int b = 7;
+// int c = 12;
+// int d = 9;
+// int e = 4;
+// int max = a;
+// if (b > max){
+//     max = b;
+// }
+// if (c > max){
+//     max = c;
+// }
+// if (d > max){
+//     max = d;
+// }
+// if (e > max){
+//     max = e;
+// }
+// Console.WriteLine(max);
+
+
+
+int n = 100;
+int i = 1;
+while(i <= n){
+    //Console.WriteLine(i);
+    Console.Write(i);
+    Console.Write(' ');
+    i = i + 1;
 }
-if (c > max){
-    max = c;
-}
-if (d > max){
-    max = d;
-}
-if (e > max){
-    max = e;
-}
-Console.WriteLine(max);
 
