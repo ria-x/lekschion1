@@ -46,17 +46,27 @@
 // //Console.WriteLine(quotient);
 
 // double d1 = 6;
+
 // double quotient = i1 / d1;
 // Console.WriteLine(quotient);
 
-
-
-// int a =87;
-// int b =7;
-// if(a > b) {
-//     Console.WriteLine(a);
-// }
-// else {
-//     Console.WriteLine(b);
-// }
+int a = 545;
+int b = 7;
+int c = 12;
+int d = 9;
+int e = 4;
+int max = a;
+if (b > max){
+    max = b;
+}
+if (c > max){
+    max = c;
+}
+if (d > max){
+    max = d;
+}
+if (e > max){
+    max = e;
+}
+Console.WriteLine(max);
 
