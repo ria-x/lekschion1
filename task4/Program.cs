@@ -28,7 +28,7 @@ void ZeroEvenElements(int[] arr)
 {
 
 
-    for (int i = 0; i < arr.Lendth; i++)
+    for (int i = 0; i < arr.Length; i++)
     {
         if (arr[i] % 2 == 0)
         {
